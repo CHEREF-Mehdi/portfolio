@@ -124,7 +124,7 @@ const data = {
       contribute in managing and sharing multidisciplinary ideas to bring projects to fruition. I graduated from the University of Burgundy, France in 2020 with a Master degree in Artificial intelligence. I have also attended the University of 
       Science and Technology H-B, Algeria where I received a Bachlore and a Master degree in 2016 and 2018 respectively, the BSc in Software Development and the MSc in Visual Computing. 
       </br>
-      I have three years of work experience, two years as JavaScript fullstack developer and one year as AI & CV engineer. My favorite subject is programming, I spend my free time in reading or developing my tech-level 
+      I have three years of work experience as JavaScript fullstack developer. My favorite subject is programming, I spend my free time in reading or developing my tech-level 
       by building my own software. I enjoy eating the French Tacos <i>"Le gratiné"</i> and playing online video games. I also have tireless energy 
       that I use to encourage others to work hard and succeed.`,
     name: "Mehdi CHEREF",
@@ -436,7 +436,7 @@ const data = {
         },
         item2: {
           title: "Artificial Intelligence & Computer Vision engineer",
-          year: "Laboratory LRIA - USTHB, Algeria : Mar. 2018 - June. 2018 <strong>(4 mos)</strong>",
+          year: "Laboratory LRIA - USTHB, Algeria : Mar. 2018 - June 2018 <strong>(4 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -451,7 +451,7 @@ const data = {
         item: {
           title: "Full stack developer",
           year:
-            "NTTC (New Technical Trading & Contracting), Algeria : Feb. - Aug. 2016  <strong>(6 mos)</strong>",
+            "NTTC (New Technical Trading & Contracting), Algeria : Feb. - Jan. 2017  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion:
@@ -459,9 +459,6 @@ const data = {
               the needs analysis to the implementation of the KPI dashboard. `,
               tools: "ReactJS, Redux, PHP, Bootstrap & MySQL",
               links: [],
-              //  [
-              //   "https://drive.google.com/open?id=1wDrIP5iDDVKH9pPR8oBZy6ex_nNQF1px",
-              // ],
             },
           },
         },
