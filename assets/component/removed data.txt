@@ -1,0 +1,20 @@
+
+        item1: {
+            title: "Laboratory LSI - USTHB, Algeria",
+            year: "Mar. - Apr. 2017",
+            content: {
+              item1: {
+                describtion:
+                  "Developing a Peer-to-Peer mail application running on LAN using Java Oriented Object Programming, file sharing is supported. ",
+                tools: "MVC, JavaFX, OOP.",
+                link: "https://github.com/CHEREF-Mehdi/PeerToPeer-Messenger",
+              },
+            },
+          },
+          
+          item3: {
+            describtion:
+              "Geovisualization of the USTHB and and highlighting its scheduled events ",
+            tools: "D3.Js, GeoJson, HTML & CSS.",
+            link: "https://github.com/CHEREF-Mehdi/Geovisualization",
+          },
