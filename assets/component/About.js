@@ -2,7 +2,7 @@ const About = (about, contact) => {
   return `<section id="about" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="display:flex; justify-content:center; align-items:center;">
             <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
               <img class="img-fluid" src="${about.imgUrl}" alt="CHEREF Mehdi" />
             </div>
@@ -53,7 +53,7 @@ const About = (about, contact) => {
                   </li>
 
                   <li>
-                    <span class="pro-title"> Freelance account :</span>
+                    <span class="pro-title"> Freelance </span>
                     <span class="pro-detail">
                       <a href="${contact.malt}" target="_blank" rel="noopener noreferrer">${contact.malt.substring(12)}</a>
                     </span>
