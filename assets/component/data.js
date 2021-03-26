@@ -424,19 +424,8 @@ const data = {
           },
         },
         item3: {
-          title: "Full stack developer",
-          year: "M & M Machine Barikey Algeria : Jan. 2018 - Aug. 2018  <strong>(9 mos)</strong>",
-          content: {
-            item1: {
-              describtion: "Build a WEB application (front and back) platform to stream targeted advertising",
-              tools: "Scrum, ReactJS, REST, NodeJS, ExpressJS, MySql & DevOps.",
-              links: [],
-            },
-          },
-        },
-        item2: {
           title: "Artificial Intelligence & Computer Vision engineer",
-          year: "Laboratory LRIA - USTHB, Algeria : Mar. 2018 - June 2018 <strong>(4 mos)</strong>",
+          year: "Laboratory LRIA - USTHB, Algeria : Feb. - Sept. 2018 <strong>(9 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -447,11 +436,23 @@ const data = {
               ],
             },
           },
+          
+        },
+        item2: {
+          title: "Full stack developer",
+          year: "M & M Machine Barikey Algeria : Feb.2017 - Jan.2018  <strong>(9 mos)</strong>",
+          content: {
+            item1: {
+              describtion: "Build a WEB application (front and back) platform to stream targeted advertising",
+              tools: "Scrum, ReactJS, REST, NodeJS, ExpressJS, MySql & DevOps.",
+              links: [],
+            },
+          },
         },
         item: {
           title: "Full stack developer",
           year:
-            "NTTC (New Technical Trading & Contracting), Algeria : Feb. - Jan. 2017  <strong>(1 yr)</strong>",
+            "NTTC (New Technical Trading & Contracting), Algeria : Feb.2016 - Jan.2017  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion:
