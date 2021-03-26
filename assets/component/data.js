@@ -424,8 +424,8 @@ const data = {
           },
         },
         item3: {
-          title: "Artificial Intelligence & Computer Vision engineer",
-          year: "Laboratory LRIA - USTHB, Algeria : Feb. - Sept. 2018 <strong>(9 mos)</strong>",
+          title: "Python developer",
+          year: "Laboratory LRIA - USTHB, Algeria : Feb. - Aug. 2018 <strong>(7 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -440,7 +440,7 @@ const data = {
         },
         item2: {
           title: "Full stack developer",
-          year: "M & M Machine Barikey Algeria : Feb.2017 - Jan.2018  <strong>(9 mos)</strong>",
+          year: "M & M Machine Barikey Algeria : Feb.2017 - Jan.2018  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion: "Build a WEB application (front and back) platform to stream targeted advertising",
