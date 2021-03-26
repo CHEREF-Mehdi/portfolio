@@ -370,6 +370,19 @@ const data = {
     experience: {
       icon: "icon-briefcase",
       items: {
+        item7:{
+          title: "Full stack developer",
+          year: "Shift'In : Dec. 2020 - Mar. 2021 <strong>(4 mos)</strong>",
+          content: {
+            item1: {
+              describtion:
+                `Back end : web-services/ RESTFul APIs connected to a front end application : 
+                reservations management, OAuth, Firebase.`,
+              tools: "Node, Swagger, mongoDB, DevOps & React.",
+              links: [],
+            },
+          },
+        },
         item6: {
           title: "Front end developer & AI engineer",
           year: "Scorf, Paris, France : Mar. - Sept. 2020 <strong>(6 mos)</strong>",
