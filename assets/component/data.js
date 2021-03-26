@@ -196,7 +196,19 @@ const data = {
       education: {
         icon: "icon-graduation",
         items: {
-          item1: {
+          item4:{
+            title: "Master degree in Management and Strategy Consulting",
+            year: "Fac For Pro, Paris, France 2020",
+            content: {
+              item1: {
+                describtion:
+                  "Project management, Marketing & Finance",
+                links: [],
+                tools: null,
+              },
+            },
+          },
+          item3: {
             title: "Master of Science in Image and Artificial Intelligence",
             year: "University of Burgundy, Dijon, France 2019 - 2020",
             content: {
@@ -222,7 +234,7 @@ const data = {
               },
             },
           },
-          item3: {
+          item1: {
             title: "Bachelor of Science in Software Engineering",
             year: "USTHB, Algiers, Algeria 2016",
             content: {
@@ -385,7 +397,7 @@ const data = {
         },
         item6: {
           title: "Front end developer & AI engineer",
-          year: "Scorf, Paris, France : Mar. - Sept. 2020 <strong>(6 mos)</strong>",
+          year: "Scorf : Mar. - Sept. 2020 <strong>(6 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -400,7 +412,7 @@ const data = {
         item5: {
           title: "Computer Vision engineer.",
           year:
-            "Laboratory LE2I University of Burgundy, France : Oct. 2019 - Mar. 2020  <strong>(6 mos)</strong>",
+            "Laboratory LE2I University of Burgundy : Oct. 2019 - Mar. 2020  <strong>(6 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -424,7 +436,7 @@ const data = {
         },
         item4: {
           title: "Full stack developer (Node/React Native)",
-          year: "LG, Algeria : Sept. 2018 - Aug. 2019  <strong>(1 yr)</strong>",
+          year: "LG : Sept. 2018 - Aug. 2019  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion:
@@ -438,7 +450,7 @@ const data = {
         },
         item3: {
           title: "Python developer",
-          year: "Laboratory LRIA - USTHB, Algeria : Feb. - Aug. 2018 <strong>(7 mos)</strong>",
+          year: "Laboratory LRIA - USTHB : Feb. - Aug. 2018 <strong>(7 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -453,7 +465,7 @@ const data = {
         },
         item2: {
           title: "Full stack developer",
-          year: "M & M Machine Barikey Algeria : Feb.2017 - Jan.2018  <strong>(1 yr)</strong>",
+          year: "M & M Machine Barikey : Feb.2017 - Jan.2018  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion: "Build a WEB application (front and back) platform to stream targeted advertising",
@@ -465,7 +477,7 @@ const data = {
         item: {
           title: "Full stack developer",
           year:
-            "NTTC (New Technical Trading & Contracting), Algeria : Feb.2016 - Jan.2017  <strong>(1 yr)</strong>",
+            "NTTC (New Technical Trading & Contracting) : Feb.2016 - Jan.2017  <strong>(1 yr)</strong>",
           content: {
             item1: {
               describtion:
