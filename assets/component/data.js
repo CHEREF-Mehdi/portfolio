@@ -51,7 +51,7 @@ const data = {
       detail: "Machine and Deep Learning",
       icon: "fa fa-object-group",
     },
-  },  
+  },
   portfolio: {
     item1: {
       img: "assets/img/gallery/img-1.jpg",
@@ -86,41 +86,41 @@ const data = {
         "https://www.google.com/maps/place/Sousse,+Tunisia/@35.8284534,10.5480137,12z/data=!3m1!4b1!4m13!1m7!3m6!1s0x125595448316a4e1:0x3a84333aaa019bef!2sTunisia!3b1!8m2!3d33.886917!4d9.537499!3m4!1s0x130275759ac9d10d:0x698e3915682cef7d!8m2!3d35.8267213!4d10.6347656",
       filter: "development",
     },
-  },  
+  },
   contact: {
     adress: "Paris, France.",
     email1: "cheref-mehdi@hotmail.fr",
     email2: "",
     tel: "+(33) 7 83 92 08 01",
     call: "tel:0033783920801",
-    malt:"https://www.malt.fr/profile/mehdicheref"
+    malt: "https://www.malt.fr/profile/mehdicheref",
   },
-  recommandations:[
+  recommandations: [
     {
-      src:"assets/img/rec/Pierre-Alexandre.jpg",
-      refProfile:"https://www.linkedin.com/in/pierre-alexandre-beucher-0338951/"
+      src: "assets/img/rec/Pierre-Alexandre.jpg",
+      refProfile:
+        "https://www.linkedin.com/in/pierre-alexandre-beucher-0338951/",
     },
     {
-      src:"assets/img/rec/Youcef_Zahariou.jpg",
-      refProfile:"https://www.linkedin.com/in/youcef-zahariou/"
+      src: "assets/img/rec/Youcef_Zahariou.jpg",
+      refProfile: "https://www.linkedin.com/in/youcef-zahariou/",
     },
     {
-      src:"assets/img/rec/Chafika_Benzaid.jpg",
-      refProfile:"https://www.linkedin.com/in/chafika-benzaid-21957261/"
+      src: "assets/img/rec/Chafika_Benzaid.jpg",
+      refProfile: "https://www.linkedin.com/in/chafika-benzaid-21957261/",
     },
     {
-      src:"assets/img/rec/Sliman_Larabi.jpg",
-      refProfile:"http://perso.usthb.dz/~slarabi/accueil.html"
+      src: "assets/img/rec/Sliman_Larabi.jpg",
+      refProfile: "http://perso.usthb.dz/~slarabi/accueil.html",
     },
     {
-      src:"assets/img/rec/DAHMANI-Djamila.jpg",
-      refProfile:"mailto: djamiladahmani73@gmail.com"
-    }
-  ],  
+      src: "assets/img/rec/DAHMANI-Djamila.jpg",
+      refProfile: "mailto: djamiladahmani73@gmail.com",
+    },
+  ],
   about: {
     imgUrl: "assets/img/about/about-1.jpg",
-    description:
-      `My name is Mehdi CHEREF and I am a fullstack developer and IA engineer. I am an accomplished coder and programmer, and I enjoy using my skills to 
+    description: `My name is Mehdi CHEREF and I am a fullstack developer and IA engineer. I am an accomplished coder and programmer, and I enjoy using my skills to 
       contribute in managing and sharing multidisciplinary ideas to bring projects to fruition. I graduated from the University of Burgundy, France in 2020 with a Master degree in Artificial intelligence. I have also attended the University of 
       Science and Technology H-B, Algeria where I received a Bachlore and a Master degree in 2016 and 2018 respectively, the BSc in Software Development and the MSc in Visual Computing. 
       </br>
@@ -129,57 +129,62 @@ const data = {
       that I use to encourage others to work hard and succeed.`,
     name: "Mehdi CHEREF",
     age: "28 Years",
-    book:'Utopia XXI, Aymeric Caron',
-    song1:'https://www.youtube.com/watch?v=_MCLI6Nao7k&t=179s&ab_channel=EternalLove',
-    song2:'https://www.youtube.com/watch?v=RrmWFjnAP2E&ab_channel=LynyrdSkynyrd-Topic',
-    song3:'https://www.youtube.com/watch?v=L3wKzyIN1yk&ab_channel=RagnBoneManVEVO',
+    book: "Utopia XXI, Aymeric Caron",
+    song1:
+      "https://www.youtube.com/watch?v=_MCLI6Nao7k&t=179s&ab_channel=EternalLove",
+    song2:
+      "https://www.youtube.com/watch?v=RrmWFjnAP2E&ab_channel=LynyrdSkynyrd-Topic",
+    song3:
+      "https://www.youtube.com/watch?v=L3wKzyIN1yk&ab_channel=RagnBoneManVEVO",
     country: "",
     location: "Paris, France",
     urlCV: "",
   },
   jobTitle: "Computer Science Engineer",
   resume: {
-    education: {      
+    education: {
       "Scientifique publications": {
         icon: "icon-badge",
         items: {
-          item3: {            
+          item3: {
             title: "Journal paper",
             year: "Image and Vision Computing Journal-Elsevier : Apr. 2020",
             content: {
               item1: {
-                id:3,
+                id: "ppr3",
                 describtion: "Zero–sum Game model for segmenting skin regions.",
                 tools: null,
                 links: ["https://doi.org/10.1016/j.imavis.2020.103925"],
-                abstract:"This paper presents a new method for skin region segmentation based on a zero-sum game theory model which exploits the opposite classifications of an image region by different skin detectors. In fact, these regions are considered conflict areas between two players (skin and non-skin) and skin detectors are considered strategies. An appropriate utility function is then defined. The computation of the saddle point (The Nash equilibrium) in the mixed extension of the proposed zero-sum game allows classifying effectively the conflict areas and so reducing the false positive skin detection. Experiments were conducted on three publically available databases using four selected skin detectors based on skin color information, skin-texture cues and employ rule-based or neural networks. The results show that the proposed method outperforms the existing skin segmentation approaches in reducing the false positive rates and obtains promising results in the skin segmentation performance."
+                abstract:
+                  "This paper presents a new method for skin region segmentation based on a zero-sum game theory model which exploits the opposite classifications of an image region by different skin detectors. In fact, these regions are considered conflict areas between two players (skin and non-skin) and skin detectors are considered strategies. An appropriate utility function is then defined. The computation of the saddle point (The Nash equilibrium) in the mixed extension of the proposed zero-sum game allows classifying effectively the conflict areas and so reducing the false positive skin detection. Experiments were conducted on three publically available databases using four selected skin detectors based on skin color information, skin-texture cues and employ rule-based or neural networks. The results show that the proposed method outperforms the existing skin segmentation approaches in reducing the false positive rates and obtains promising results in the skin segmentation performance.",
               },
             },
           },
-          item1: {            
+          item2: {
             title: "Conference paper",
             year: "Conference speaker in VISAPP, Valetta, Malta : Feb. 2020",
             content: {
               item1: {
-                id:1,
+                id: "ppr2",
                 describtion:
                   "Melanoma Detection System based on Game Theory Model.",
                 tools: null,
                 links: [
                   "https://drive.google.com/open?id=1-TdM3efNdFLiHPESk-fiGnQ34DhD-Zcy",
                   "https://doi.org/10.5220/0008879807030711",
-                ],                
-                abstract:"We propose in this paper a new method for Melanoma detection (the most dangerous form of skin cancer) based on ABCD medical procedure. The ABCD features play a crucial role in the accuracy of diagnosis rates. However, the search for such distinctive data remains difficult, because of the small variability in the appearance of benign and cancerous skin lesions. To cope with this problem, each feature is calculated using different formulas. Then if all the used formulas agree about the lesion classification, it will be classified according to the full agreement. Otherwise, for doubtful pigmented skin lesions, the game theory model is applied for final decision. The game model proposed in our work, estimates that the conflict is between two agents (melanoma and non-melanoma). The different formulas applied in the computation of the features A, B, C, and D are the pure strategies. The value sign in the mixed extension of the game allows classifying correctly the skin lesion. The method wa s tested on two publically available databases PH2 and ISIC, the obtained results are promising."
+                ],
+                abstract:
+                  "We propose in this paper a new method for Melanoma detection (the most dangerous form of skin cancer) based on ABCD medical procedure. The ABCD features play a crucial role in the accuracy of diagnosis rates. However, the search for such distinctive data remains difficult, because of the small variability in the appearance of benign and cancerous skin lesions. To cope with this problem, each feature is calculated using different formulas. Then if all the used formulas agree about the lesion classification, it will be classified according to the full agreement. Otherwise, for doubtful pigmented skin lesions, the game theory model is applied for final decision. The game model proposed in our work, estimates that the conflict is between two agents (melanoma and non-melanoma). The different formulas applied in the computation of the features A, B, C, and D are the pure strategies. The value sign in the mixed extension of the game allows classifying correctly the skin lesion. The method wa s tested on two publically available databases PH2 and ISIC, the obtained results are promising.",
               },
             },
           },
-          item2: {            
+          item1: {
             title: "Journal paper",
             year:
               "Multimedia Tools and Applications Journal-Springer : Jul. 2019",
             content: {
               item1: {
-                id:2,
+                id: "ppr1",
                 describtion:
                   "Effiecient Representation of size function based on Moments Theory.",
                 tools: null,
@@ -187,7 +192,8 @@ const data = {
                   "https://doi.org/10.1007/s11042-019-07859-9",
                   "https://link.springer.com/epdf/10.1007/s11042-019-07859-9?author_access_token=R1NfpCDI18NBtDlwagehH_e4RwlQNchNByi7wbcMAY7aPaYR2sU_6HGGHg_iK9JXx6pezEntFoqpMjlKG3gnPDqCzApfA0uI4st3MCq46KM0u1g6MtJs7I5FeZRQWQqda-MGFVGofoS8EwjmhS29fA%3D%3D",
                 ],
-                abstract:"Nowadays, there is a need to develop efficient and intuitive solutions such as hand gestures recognition for the Human-machine interaction. This paper presents a hand gestures recognition system based on salient geometric features extracted using size functions theory. We propose a new representation of the reduced size function based on Tchebichef moments providing more details and information for their graphs descriptions compared to existing representations. In addition, a methodical algorithm of fast Tchebichef moments computation for grey scale images is well adapted to the encoded graph of size function. Furthermore, a contour discretization based on a convexity approach is proposed for an optimal computation of the measuring functions, and new measuring functions for hand gestures classification and retrieval are proposed. The comparison with existing systems indicates that our method competes with the best ranked method for the dynamic case and surpasses the state of the art in static case; in addition it presents the advantage to be applied in both static and dynamic cases."
+                abstract:
+                  "Nowadays, there is a need to develop efficient and intuitive solutions such as hand gestures recognition for the Human-machine interaction. This paper presents a hand gestures recognition system based on salient geometric features extracted using size functions theory. We propose a new representation of the reduced size function based on Tchebichef moments providing more details and information for their graphs descriptions compared to existing representations. In addition, a methodical algorithm of fast Tchebichef moments computation for grey scale images is well adapted to the encoded graph of size function. Furthermore, a contour discretization based on a convexity approach is proposed for an optimal computation of the measuring functions, and new measuring functions for hand gestures classification and retrieval are proposed. The comparison with existing systems indicates that our method competes with the best ranked method for the dynamic case and surpasses the state of the art in static case; in addition it presents the advantage to be applied in both static and dynamic cases.",
               },
             },
           },
@@ -196,13 +202,12 @@ const data = {
       education: {
         icon: "icon-graduation",
         items: {
-          item4:{
+          item4: {
             title: "Master degree in Management and Strategy Consulting",
             year: "Fac For Pro, Paris, France 2020",
             content: {
               item1: {
-                describtion:
-                  "Project management, Marketing & Finance",
+                describtion: "Project management, Marketing & Finance",
                 links: [],
                 tools: null,
               },
@@ -251,6 +256,7 @@ const data = {
         icon: "icon-people",
         items: {
           item3: {
+            id:"org3",
             title: "INSTICC Regular member",
             year:
               "Institute for Systems and Technologies of Information, Control and Communication: Feb. 2020 - Dec 2021",
@@ -266,6 +272,7 @@ const data = {
             },
           },
           item2: {
+            id:"org2",
             title: "WEB development instructor",
             year: "Microclub - USTHB : Feb. 2018",
             content: {
@@ -280,6 +287,7 @@ const data = {
             },
           },
           item1: {
+            id:"org1",
             title: "Community manager",
             year: "Microclub - USTHB Jun. 2018",
             content: {
@@ -301,7 +309,7 @@ const data = {
           title: "WEB developement & application software",
           year: null,
           content: {
-            item2:{
+            item2: {
               describtion: "WEB application: 3D Glob & live search",
               tools: "React, Axios, Jest, Resium & Material UI",
               links: ["https://resium-app-test.herokuapp.com/"],
@@ -341,18 +349,21 @@ const data = {
                 "https://github.com/CHEREF-Mehdi/TouchlessDrawing",
                 "https://github.com/CHEREF-Mehdi/SkinDetection",
               ],
-            },            
+            },
             item2: {
               describtion: "Graph visualization ",
               tools: "Processing.",
-              links:
-                ["https://github.com/CHEREF-Mehdi/Node-Link-Graph-Visualization"],
+              links: [
+                "https://github.com/CHEREF-Mehdi/Node-Link-Graph-Visualization",
+              ],
             },
             item1: {
               describtion:
                 "Experience in Virtual Reality : Prototyping a 3D interactive game. ",
               tools: "C++, VTK & Kinect V1.",
-              links:["https://drive.google.com/open?id=1QxJrjk_ujwFaQQfLT5cGYGGAInICsFdW"]
+              links: [
+                "https://drive.google.com/open?id=1QxJrjk_ujwFaQQfLT5cGYGGAInICsFdW",
+              ],
             },
             item: {
               describtion: "Game : Othello ",
@@ -382,13 +393,13 @@ const data = {
     experience: {
       icon: "icon-briefcase",
       items: {
-        item7:{
-          title: "Full stack developer",
+        item7: {
+          title: "Full stack developer - Node/React",
           year: "Shift'In : Dec. 2020 - Mar. 2021 <strong>(4 mos)</strong>",
+          id: 7,
           content: {
             item1: {
-              describtion:
-                `Back end : web-services/ RESTFul APIs connected to a front end application : 
+              describtion: `Back end : web-services/ RESTFul APIs connected to a front end application : 
                 reservations management, OAuth, Firebase.`,
               tools: "Node, Swagger, mongoDB, DevOps & React.",
               links: [],
@@ -396,21 +407,23 @@ const data = {
           },
         },
         item6: {
-          title: "Front end developer & AI engineer",
+          title: "Front end developer & AI engineer - React/ TensorFlowJS",
           year: "Scorf : Mar. - Sept. 2020 <strong>(6 mos)</strong>",
+          id: 6,
           content: {
             item1: {
-              describtion:
-                `Developing a BI platform (tables management) 
+              describtion: `Developing a BI platform (tables management) 
                 and implementing IA models to extract relevant information 
                 from financial resources. (P&L, Cash-Flow...)`,
-              tools: "Scrum, ReactJS, Redux, TypeScript, TensorFlowJS & DevOps.",
+              tools:
+                "Scrum, ReactJS, Redux, TypeScript, TensorFlowJS & DevOps.",
               links: [],
             },
           },
         },
         item5: {
-          title: "Computer Vision engineer.",
+          id: 5,
+          title: "Computer Vision engineer - Cuda/C++",
           year:
             "Laboratory LE2I University of Burgundy : Oct. 2019 - Mar. 2020  <strong>(6 mos)</strong>",
           content: {
@@ -435,22 +448,25 @@ const data = {
           },
         },
         item4: {
-          title: "Full stack developer (Node/React Native)",
+          id: 4,
+          title: "Full stack developer- Node/React Native",
           year: "LG : Sept. 2018 - Aug. 2019  <strong>(1 yr)</strong>",
           content: {
             item1: {
-              describtion:
-                `Back-end with Node: RESTFul API, Oauth, authentification, authorization, DevOps.
+              describtion: `Back-end with Node: RESTFul API, Oauth, authentification, authorization, DevOps.
                 Front-end with React Native: Build cross-platform mobile application : Firebase, data-collection, 
                 QR/barecode reader & text recognition.`,
-              tools: "Scrum, React native, Redux, TypeScript, Node, MySql, DevOps",
+              tools:
+                "Scrum, React native, Redux, TypeScript, Node, MySql, DevOps",
               links: [],
             },
           },
         },
         item3: {
-          title: "Python developer",
-          year: "Laboratory LRIA - USTHB : Feb. - Aug. 2018 <strong>(7 mos)</strong>",
+          id: 3,
+          title: "Python developer - Django / scikit-learn / OpenCv",
+          year:
+            "Laboratory LRIA - USTHB : Feb. - Aug. 2018 <strong>(7 mos)</strong>",
           content: {
             item1: {
               describtion:
@@ -461,27 +477,29 @@ const data = {
               ],
             },
           },
-          
         },
         item2: {
-          title: "Full stack developer",
-          year: "M & M Machine Barikey : Feb.2017 - Jan.2018  <strong>(1 yr)</strong>",
+          id: 2,
+          title: "Full stack developer - Node/React",
+          year:
+            "M & M Machine Barikey : Feb.2017 - Jan.2018  <strong>(1 yr)</strong>",
           content: {
             item1: {
-              describtion: "Build a WEB application (front and back) platform to stream targeted advertising",
+              describtion:
+                "Build a WEB application (front and back) platform to stream targeted advertising",
               tools: "Scrum, ReactJS, REST, NodeJS, ExpressJS, MySql & DevOps.",
               links: [],
             },
           },
         },
         item: {
-          title: "Full stack developer",
+          id: 1,
+          title: "Full stack developer - PHP/React",
           year:
             "NTTC (New Technical Trading & Contracting) : Feb.2016 - Jan.2017  <strong>(1 yr)</strong>",
           content: {
             item1: {
-              describtion:
-              `Project management WEB app. Developed from scratch starting with 
+              describtion: `Project management WEB app. Developed from scratch starting with 
               the needs analysis to the implementation of the KPI dashboard. `,
               tools: "ReactJS, Redux, PHP, Bootstrap & MySQL",
               links: [],

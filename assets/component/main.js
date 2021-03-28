@@ -39,6 +39,12 @@ $(document).ready(function () {
       },
     });
   });
+
+  $(".rotate").click(function () {
+    console.log("click");
+    $(this).toggleClass("down");
+  })
+  
 }); //document.ready
 
 function getRandomInt(max) {
@@ -46,3 +52,4 @@ function getRandomInt(max) {
 }
 
 let RandomQuote = 0;
+
