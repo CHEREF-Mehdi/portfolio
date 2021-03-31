@@ -37,28 +37,26 @@ function mapLinkList(links) {
 
 function mapItemLR(title, year, content, type, id) {
   let li = `<li>
-        <div class="content-text" style="position: relative;">
+        <div 
+          class="content-text div-rotate" 
+          style="position: relative;" 
+          data-toggle="collapse"
+          data-target="#collapse${id}"
+          aria-expanded="true"
+          aria-controls="collapse${id}">
         ${
           id || content["item1"].abstract
             ? `<div style="position:absolute; top:10px; right:10px; ">
                 ${
-                  id ? (
-                    `<i
-                      class="fas fa-chevron-circle-left rotate"
-                      data-toggle="collapse"
-                      data-target="#collapse${id}"
-                      aria-expanded="true"
-                      aria-controls="collapse${id}"
-                    />`
-                  ) : (
-                    `<p class="abstract" 
-                      data-toggle="collapse" 
-                      data-target="#collapse${content["item1"].id}" 
-                      aria-expanded="true" 
-                      aria-controls="collapse${content["item1"].id}">
-                        <small><u>Read abstract</u></small>
+                  id
+                    ? `<iclass="fas fa-chevron-circle-left rotate" />`
+                    : `<p class="abstract" 
+                        data-toggle="collapse" 
+                        data-target="#collapse${content["item1"].id}" 
+                        aria-expanded="true" 
+                        aria-controls="collapse${content["item1"].id}">
+                          <small><u>Read abstract</u></small>
                       </p>`
-                  )
                 }
                 </div>`
             : ""

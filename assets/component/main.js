@@ -8,7 +8,7 @@ $(document).ready(function () {
     portfolio,
     jobTitle,
     quotes,
-    recommandations
+    recommandations,
   } = data;
   $("#jobTitle").text(jobTitle);
   $("#Copyright").text(
@@ -21,7 +21,7 @@ $(document).ready(function () {
   $("#resumeDiv").html(Resume(resume));
   $("#portfolio").html(Portfolio(portfolio));
   $("#contactDiv").html(Contact(contact));
-  const recomsHtml=Recommandation(recommandations)
+  const recomsHtml = Recommandation(recommandations);
   $("#ol-carou-indic").html(recomsHtml.indicators);
   $("#slideContainer").html(recomsHtml.slides);
 
@@ -30,21 +30,23 @@ $(document).ready(function () {
       container: "body",
       html: true,
       content: function () {
-        let r = getRandomInt(quotes.length );
+        let r = getRandomInt(quotes.length);
         while (r === RandomQuote) {
-          r = getRandomInt(quotes.length );
+          r = getRandomInt(quotes.length);
         }
         RandomQuote = r;
-        return '<div style="text-align: justify; text-justify: inter-word; class="popover-message">' + quotes[r] + "</div>";
+        return (
+          '<div style="text-align: justify; text-justify: inter-word; class="popover-message">' +
+          quotes[r] +
+          "</div>"
+        );
       },
     });
   });
 
-  $(".rotate").click(function () {
-    console.log("click");
-    $(this).toggleClass("down");
-  })
-  
+  $(".div-rotate").click(function (e) {
+    $(this).find("i").toggleClass("down");
+  });
 }); //document.ready
 
 function getRandomInt(max) {
@@ -52,4 +54,3 @@ function getRandomInt(max) {
 }
 
 let RandomQuote = 0;
-
