@@ -39,7 +39,7 @@ function mapItemLR(title, year, content, type, id) {
   let li = `<li>
         <div 
           class="content-text div-rotate" 
-          style="position: relative;" 
+          style="position: relative;  ${id ? "cursor:pointer" : ""} " 
           data-toggle="collapse"
           data-target="#collapse${id}"
           aria-expanded="true"
@@ -49,7 +49,7 @@ function mapItemLR(title, year, content, type, id) {
             ? `<div style="position:absolute; top:10px; right:10px; ">
                 ${
                   id
-                    ? `<iclass="fas fa-chevron-circle-left rotate" />`
+                    ? `<i class="fas fa-chevron-circle-left rotate" />`
                     : `<p class="abstract" 
                         data-toggle="collapse" 
                         data-target="#collapse${content["item1"].id}" 
