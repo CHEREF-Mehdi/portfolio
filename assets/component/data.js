@@ -14,7 +14,7 @@ const data = {
       icon: "icon-social-linkedin",
     },
     gitHub: {
-      class: "instagram",
+      class: "github",
       link: "https://github.com/CHEREF-Mehdi/",
       icon: "icon-social-github",
     },
@@ -120,15 +120,15 @@ const data = {
   ],
   about: {
     imgUrl: "assets/img/about/about-1.jpg",
-    description: `My name is Mehdi CHEREF and I am a fullstack developer and IA engineer. I am an accomplished coder and programmer, and I enjoy using my skills to 
-      contribute in managing and sharing multidisciplinary ideas to bring projects to fruition. I graduated from the University of Burgundy, France in 2020 with a Master degree in Artificial intelligence. I have also attended the University of 
-      Science and Technology H-B, Algeria where I received a Bachlore and a Master degree in 2016 and 2018 respectively, the BSc in Software Development and the MSc in Visual Computing. 
+    description: `My name is Mehdi CHEREF and I am a fullstack developer and IA engineer. I am an accomplished coder and programmer. I enjoy using my skills to 
+      contribute to managing and sharing multidisciplinary ideas to bring projects to fruition. I graduated from the University of Burgundy, France in 2020 with a Master degree in Artificial intelligence. I have also attended the University of 
+      Science and Technology H-B, Algeria where I received a Bachlore's and a Master's degree in 2016 and 2018 respectively, the BSc in Software Development and the MSc in Visual Computing. 
       </br>
-      I have three years of work experience as JavaScript fullstack developer. My favorite subject is programming, I spend my free time in reading or developing my tech-level 
-      by building my own software. I enjoy eating the French Tacos <i>"Le gratiné"</i> and playing online video games. I also have tireless energy 
-      that I use to encourage others to work hard and succeed.`,
+      My favorite subject is programming, I spend my free time in reading or developing my tech-level by building my own software.
+      I enjoy eating the French Tacos <i>"Le gratiné"</i> and playing online video games. As part of my profession, I do my best to encourage my teammates 
+      to work hard and push them to success.`,
     name: "Mehdi CHEREF",
-    age: "28 Years",
+    age: "29 Years",
     book: "Utopia XXI, Aymeric Caron",
     song1:
       "https://www.youtube.com/watch?v=_MCLI6Nao7k&t=179s&ab_channel=EternalLove",
@@ -137,7 +137,7 @@ const data = {
     song3:
       "https://www.youtube.com/watch?v=L3wKzyIN1yk&ab_channel=RagnBoneManVEVO",
     country: "",
-    location: "Paris, France",
+    location: "Toulouse, France",
     urlCV: "",
   },
   jobTitle: "Computer Science Engineer",
@@ -202,7 +202,7 @@ const data = {
       education: {
         icon: "icon-graduation",
         items: {
-          item4: {
+          /*item4: {
             title: "Master degree in Management and Strategy Consulting",
             year: "Fac For Pro, Paris, France 2020",
             content: {
@@ -212,7 +212,7 @@ const data = {
                 tools: null,
               },
             },
-          },
+          },*/
           item3: {
             title: "Master of Science in Image and Artificial Intelligence",
             year: "University of Burgundy, Dijon, France 2019 - 2020",
@@ -232,9 +232,7 @@ const data = {
               item1: {
                 describtion:
                   "Image processing and synthesis, Artificial Intelligence",
-                links: [
-                  "https://drive.google.com/open?id=1pWIESKLor0mOU93mxXnIGf1umn_pnIzJ",
-                ],
+                links: [],
                 tools: null,
               },
             },
@@ -286,19 +284,6 @@ const data = {
               },
             },
           },
-          item1: {
-            id:"org1",
-            title: "Community manager",
-            year: "Microclub - USTHB Jun. 2018",
-            content: {
-              item1: {
-                describtion:
-                  "Communication manager of the event Algeria Game Challenge. ",
-                tools: null,
-                links: [],
-              },
-            },
-          },
         },
       },
     },
@@ -329,7 +314,6 @@ const data = {
         item1: {
           title: "Computer Vision.",
           year: null,
-          // " Laboratory LE2I University of Burgundy, France : Oct. 2019 - Mars 2020",
           content: {
             item4: {
               describtion: "inverse kinematics, Implicit-Surface & Curves",
@@ -375,7 +359,6 @@ const data = {
         item: {
           title: "Artificial Intelligence",
           year: null,
-          //"Laboratory ImVia University of Burgundy, France : Oct. - Dec. 2019 ",
           content: {
             item1: {
               describtion:
@@ -395,13 +378,13 @@ const data = {
       items: {
         item7: {
           title: "Full stack developer - Node/React",
-          year: "Shift'In : Dec. 2020 - Mar. 2021 <strong>(4 mos)</strong>",
+          year: "Shift'In : Dec. 2020 - Mar. 2021 <strong>(7 mos)</strong>",
           id: 7,
           content: {
             item1: {
-              describtion: `Back end : web-services/ RESTFul APIs connected to a front end application : 
-                reservations management, OAuth, Firebase.`,
-              tools: "Node, Swagger, mongoDB, DevOps & React.",
+              describtion: `Appointment scheduling application, Back end : web-services/ RESTFul APIs connected to a front end application : 
+                 authentication, authorization Firebase.`,
+              tools: "Node, mongoDB, Redis, DevOps & React.",
               links: [],
             },
           },
@@ -462,7 +445,7 @@ const data = {
             },
           },
         },
-        item3: {
+        /*item3: {
           id: 3,
           title: "Python developer - Django / scikit-learn / OpenCv",
           year:
@@ -491,17 +474,17 @@ const data = {
               links: [],
             },
           },
-        },
+        },*/
         item: {
           id: 1,
-          title: "Full stack developer - PHP/React",
+          title: "Full stack developer - Node/React",
           year:
-            "NTTC (New Technical Trading & Contracting) : Feb.2016 - Jan.2017  <strong>(1 yr)</strong>",
+            "NTTC (New Technical Trading & Contracting) : Feb.2016 - Aug.2018  <strong>(2.5 yr)</strong>",
           content: {
             item1: {
               describtion: `Project management WEB app. Developed from scratch starting with 
               the needs analysis to the implementation of the KPI dashboard. `,
-              tools: "ReactJS, Redux, PHP, Bootstrap & MySQL",
+              tools: "ReactJS, Redux, Node, expressJS & MySQL",
               links: [],
             },
           },

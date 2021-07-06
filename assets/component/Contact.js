@@ -1,7 +1,7 @@
 const Contact = (contact) => {
-  const ct = `<div class="footer-right-area wow fadeIn">
+  const ct = `<div class="col-md-12 col-lg-12 col-sm-12 footer-right-area wow fadeIn" >
         <h2>Contact Address</h2>
-        <div class="footer-right-contact">
+        <div class="footer-right-contact" style="flex:1;">
             <div class="single-contact">
             <div class="contact-icon">
                 <i class="fa fa-map-marker"></i>
